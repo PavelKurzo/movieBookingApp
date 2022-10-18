@@ -20,12 +20,16 @@ struct ContentView: View {
                 TabView(selection: $currentTab) {
                     HomeView()
                         .tag(Tab.home)
+                    
                     Text("Location")
                         .tag(Tab.location)
+                    
                     TicketView()
                         .tag(Tab.ticket)
+                    
                     Text("Category")
                         .tag(Tab.category)
+                    
                     Text("Profile")
                         .tag(Tab.profile)
                 }

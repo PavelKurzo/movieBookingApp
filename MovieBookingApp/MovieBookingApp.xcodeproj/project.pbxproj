@@ -29,6 +29,8 @@
 		A8C18EF228FEED70000A7216 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF128FEED70000A7216 /* DateButton.swift */; };
 		A8C18EF428FEED8B000A7216 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF328FEED8B000A7216 /* RoundButton.swift */; };
 		A8C18EF628FEF08C000A7216 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF528FEF08C000A7216 /* LargeButton.swift */; };
+		A8C18EF828FEF392000A7216 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF728FEF392000A7216 /* SeatsView.swift */; };
+		A8C18EFA28FEF5BB000A7216 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF928FEF5BB000A7216 /* StatusUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		A8C18EF128FEED70000A7216 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 		A8C18EF328FEED8B000A7216 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		A8C18EF528FEF08C000A7216 /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		A8C18EF728FEF392000A7216 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
+		A8C18EF928FEF5BB000A7216 /* StatusUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 				A8C18EE128FED97F000A7216 /* CustomTabBar.swift */,
 				A8C18EE528FEE200000A7216 /* CustomSearchBar.swift */,
 				A8C18EE728FEE652000A7216 /* ScrollSection.swift */,
+				A8C18EF928FEF5BB000A7216 /* StatusUI.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				A861DC7C28FD932200ED377F /* TicketView.swift */,
 				A8C18EE328FEE13E000A7216 /* HomeView.swift */,
 				A8C18EEB28FEEAAB000A7216 /* BookingView.swift */,
+				A8C18EF728FEF392000A7216 /* SeatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,7 +246,9 @@
 				A861DC7D28FD932200ED377F /* TicketView.swift in Sources */,
 				A8C18EE028FED85F000A7216 /* TabData.swift in Sources */,
 				A8C18EE428FEE13E000A7216 /* HomeView.swift in Sources */,
+				A8C18EFA28FEF5BB000A7216 /* StatusUI.swift in Sources */,
 				A8C18EE828FEE652000A7216 /* ScrollSection.swift in Sources */,
+				A8C18EF828FEF392000A7216 /* SeatsView.swift in Sources */,
 				A861DC6D28FD929700ED377F /* ContentView.swift in Sources */,
 				A8C18EF628FEF08C000A7216 /* LargeButton.swift in Sources */,
 				A8C18EE228FED97F000A7216 /* CustomTabBar.swift in Sources */,
