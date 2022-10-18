@@ -17,6 +17,8 @@
 		A8C18EDA28FD9BF3000A7216 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18ED928FD9BF3000A7216 /* Ticket.swift */; };
 		A8C18EDC28FD9E86000A7216 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EDB28FD9E86000A7216 /* utils.swift */; };
 		A8C18EDE28FEB435000A7216 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EDD28FEB435000A7216 /* Tickets.swift */; };
+		A8C18EE028FED85F000A7216 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EDF28FED85F000A7216 /* TabData.swift */; };
+		A8C18EE228FED97F000A7216 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE128FED97F000A7216 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A8C18ED928FD9BF3000A7216 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		A8C18EDB28FD9E86000A7216 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		A8C18EDD28FEB435000A7216 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		A8C18EDF28FED85F000A7216 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		A8C18EE128FED97F000A7216 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				A8C18ED428FD97DA000A7216 /* CircleBackground.swift */,
+				A8C18EE128FED97F000A7216 /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				A8C18ED628FD9AB8000A7216 /* TicketModel.swift */,
+				A8C18EDF28FED85F000A7216 /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -199,7 +205,9 @@
 				A8C18EDC28FD9E86000A7216 /* utils.swift in Sources */,
 				A8C18EDA28FD9BF3000A7216 /* Ticket.swift in Sources */,
 				A861DC7D28FD932200ED377F /* TicketView.swift in Sources */,
+				A8C18EE028FED85F000A7216 /* TabData.swift in Sources */,
 				A861DC6D28FD929700ED377F /* ContentView.swift in Sources */,
+				A8C18EE228FED97F000A7216 /* CustomTabBar.swift in Sources */,
 				A861DC6B28FD929700ED377F /* MovieBookingAppApp.swift in Sources */,
 				A8C18ED528FD97DA000A7216 /* CircleBackground.swift in Sources */,
 				A8C18EDE28FEB435000A7216 /* Tickets.swift in Sources */,
