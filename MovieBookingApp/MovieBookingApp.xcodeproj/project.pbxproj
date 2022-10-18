@@ -19,6 +19,8 @@
 		A8C18EDE28FEB435000A7216 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EDD28FEB435000A7216 /* Tickets.swift */; };
 		A8C18EE028FED85F000A7216 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EDF28FED85F000A7216 /* TabData.swift */; };
 		A8C18EE228FED97F000A7216 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE128FED97F000A7216 /* CustomTabBar.swift */; };
+		A8C18EE428FEE13E000A7216 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE328FEE13E000A7216 /* HomeView.swift */; };
+		A8C18EE628FEE200000A7216 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE528FEE200000A7216 /* CustomSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		A8C18EDD28FEB435000A7216 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		A8C18EDF28FED85F000A7216 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		A8C18EE128FED97F000A7216 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A8C18EE328FEE13E000A7216 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A8C18EE528FEE200000A7216 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 			children = (
 				A8C18ED428FD97DA000A7216 /* CircleBackground.swift */,
 				A8C18EE128FED97F000A7216 /* CustomTabBar.swift */,
+				A8C18EE528FEE200000A7216 /* CustomSearchBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				A861DC7C28FD932200ED377F /* TicketView.swift */,
+				A8C18EE328FEE13E000A7216 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,9 +209,11 @@
 			files = (
 				A8C18ED728FD9AB8000A7216 /* TicketModel.swift in Sources */,
 				A8C18EDC28FD9E86000A7216 /* utils.swift in Sources */,
+				A8C18EE628FEE200000A7216 /* CustomSearchBar.swift in Sources */,
 				A8C18EDA28FD9BF3000A7216 /* Ticket.swift in Sources */,
 				A861DC7D28FD932200ED377F /* TicketView.swift in Sources */,
 				A8C18EE028FED85F000A7216 /* TabData.swift in Sources */,
+				A8C18EE428FEE13E000A7216 /* HomeView.swift in Sources */,
 				A861DC6D28FD929700ED377F /* ContentView.swift in Sources */,
 				A8C18EE228FED97F000A7216 /* CustomTabBar.swift in Sources */,
 				A861DC6B28FD929700ED377F /* MovieBookingAppApp.swift in Sources */,
