@@ -21,6 +21,14 @@
 		A8C18EE228FED97F000A7216 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE128FED97F000A7216 /* CustomTabBar.swift */; };
 		A8C18EE428FEE13E000A7216 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE328FEE13E000A7216 /* HomeView.swift */; };
 		A8C18EE628FEE200000A7216 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE528FEE200000A7216 /* CustomSearchBar.swift */; };
+		A8C18EE828FEE652000A7216 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE728FEE652000A7216 /* ScrollSection.swift */; };
+		A8C18EEA28FEE6A7000A7216 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EE928FEE6A7000A7216 /* PosterData.swift */; };
+		A8C18EEC28FEEAAB000A7216 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EEB28FEEAAB000A7216 /* BookingView.swift */; };
+		A8C18EEE28FEEBE9000A7216 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EED28FEEBE9000A7216 /* CircleButton.swift */; };
+		A8C18EF028FEED57000A7216 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EEF28FEED57000A7216 /* TimeButton.swift */; };
+		A8C18EF228FEED70000A7216 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF128FEED70000A7216 /* DateButton.swift */; };
+		A8C18EF428FEED8B000A7216 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF328FEED8B000A7216 /* RoundButton.swift */; };
+		A8C18EF628FEF08C000A7216 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C18EF528FEF08C000A7216 /* LargeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +47,14 @@
 		A8C18EE128FED97F000A7216 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		A8C18EE328FEE13E000A7216 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A8C18EE528FEE200000A7216 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		A8C18EE728FEE652000A7216 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		A8C18EE928FEE6A7000A7216 /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
+		A8C18EEB28FEEAAB000A7216 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		A8C18EED28FEEBE9000A7216 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		A8C18EEF28FEED57000A7216 /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		A8C18EF128FEED70000A7216 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
+		A8C18EF328FEED8B000A7216 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		A8C18EF528FEF08C000A7216 /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 				A8C18ED428FD97DA000A7216 /* CircleBackground.swift */,
 				A8C18EE128FED97F000A7216 /* CustomTabBar.swift */,
 				A8C18EE528FEE200000A7216 /* CustomSearchBar.swift */,
+				A8C18EE728FEE652000A7216 /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -108,6 +125,7 @@
 			children = (
 				A8C18ED628FD9AB8000A7216 /* TicketModel.swift */,
 				A8C18EDF28FED85F000A7216 /* TabData.swift */,
+				A8C18EE928FEE6A7000A7216 /* PosterData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -115,6 +133,11 @@
 		A861DC7A28FD92EE00ED377F /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				A8C18EED28FEEBE9000A7216 /* CircleButton.swift */,
+				A8C18EEF28FEED57000A7216 /* TimeButton.swift */,
+				A8C18EF128FEED70000A7216 /* DateButton.swift */,
+				A8C18EF328FEED8B000A7216 /* RoundButton.swift */,
+				A8C18EF528FEF08C000A7216 /* LargeButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -124,6 +147,7 @@
 			children = (
 				A861DC7C28FD932200ED377F /* TicketView.swift */,
 				A8C18EE328FEE13E000A7216 /* HomeView.swift */,
+				A8C18EEB28FEEAAB000A7216 /* BookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,14 +235,22 @@
 				A8C18EDC28FD9E86000A7216 /* utils.swift in Sources */,
 				A8C18EE628FEE200000A7216 /* CustomSearchBar.swift in Sources */,
 				A8C18EDA28FD9BF3000A7216 /* Ticket.swift in Sources */,
+				A8C18EF428FEED8B000A7216 /* RoundButton.swift in Sources */,
+				A8C18EEA28FEE6A7000A7216 /* PosterData.swift in Sources */,
 				A861DC7D28FD932200ED377F /* TicketView.swift in Sources */,
 				A8C18EE028FED85F000A7216 /* TabData.swift in Sources */,
 				A8C18EE428FEE13E000A7216 /* HomeView.swift in Sources */,
+				A8C18EE828FEE652000A7216 /* ScrollSection.swift in Sources */,
 				A861DC6D28FD929700ED377F /* ContentView.swift in Sources */,
+				A8C18EF628FEF08C000A7216 /* LargeButton.swift in Sources */,
 				A8C18EE228FED97F000A7216 /* CustomTabBar.swift in Sources */,
+				A8C18EEE28FEEBE9000A7216 /* CircleButton.swift in Sources */,
+				A8C18EEC28FEEAAB000A7216 /* BookingView.swift in Sources */,
 				A861DC6B28FD929700ED377F /* MovieBookingAppApp.swift in Sources */,
+				A8C18EF028FEED57000A7216 /* TimeButton.swift in Sources */,
 				A8C18ED528FD97DA000A7216 /* CircleBackground.swift in Sources */,
 				A8C18EDE28FEB435000A7216 /* Tickets.swift in Sources */,
+				A8C18EF228FEED70000A7216 /* DateButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
